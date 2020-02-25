@@ -40,7 +40,7 @@ for (var a = 0; a < sobre.length; a++) {
 
 }
 
-// Slider de serviços
+// Slider de serviços-
 
 var nossos_servicos = [
   {
