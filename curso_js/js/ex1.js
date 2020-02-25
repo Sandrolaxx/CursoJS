@@ -14,8 +14,8 @@ console.log("O aluno " + aluno + ", matrícula " + matricula + " , obteve a méd
 var numero = "991039812";
 console.log("Resultado do teste: " + (numero.length == 9));
 //Ex 5
-var potencia =Math.pow(32, 6);
-console.log("O Resultado de 32 na 6 potencia é: " + potencia);
+var potencia =Math.pow(32, 4);
+console.log("O Resultado de 32 na 4 potencia é: " + potencia);
 //Ex 7
 // var quantidade = "25";
 // var numero = 6;
