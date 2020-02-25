@@ -352,8 +352,6 @@
             </div>
         </div>
 
-
-
         <footer id="footer" class="small-12 columns no-padding">
 
             <div class="global-page-container">
@@ -388,6 +386,21 @@
                     <div class="como-chegar small-5 medium-3 small-offset-1 medium-offset-0 columns">
                         <h4 class="footer-section-title">Como chegar</h4>
                         <div id="map"></div>
+                        <script>
+                            // Initialize and add the map
+                            function initMap() {
+                              // The location of Uluru
+                              var empresa = {lat: -24.978628, lng: -53.453733};
+                              // The map, centered at Uluru
+                              var map = new google.maps.Map(
+                                  document.getElementById('map'), {zoom: 14, center: empresa});
+                              // The marker, positioned at empresa
+                              var marker = new google.maps.Marker({position: empresa, map: map});
+                            }
+                                </script>
+                                <script async defer
+                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMD3jqPlQ0U4d7FJrobISEwLhd_jkdvjc&callback=initMap">
+                         </script>
                     </div>
                     
                     <hr></hr>
